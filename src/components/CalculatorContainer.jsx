@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import InputField from "./inputField.jsx";
-import KeyPad from "./KeyPad.jsx";
+import KeyPad from "./KeyPad.jsx"
 import Typography from '@mui/material/Typography'
 import Heading from "./Heading.jsx";
+import InputField from "./InputField.jsx"
 
 const Calculator = () => {
   const [inputValue, setInputValue] = useState("");

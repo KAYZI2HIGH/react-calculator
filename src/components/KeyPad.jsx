@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import Keys from "./keys.jsx";
+import Keys from "./keys"
 import { uid } from "uid";
 import Button from "@mui/material/Button";
 
