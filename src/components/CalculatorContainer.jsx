@@ -1,15 +1,15 @@
 import React, { useState } from "react";
-import Header from "./header.jsx";
 import InputField from "./inputField.jsx";
 import KeyPad from "./KeyPad.jsx";
 import Typography from '@mui/material/Typography'
+import Heading from "./Heading.jsx";
 
 const Calculator = () => {
   const [inputValue, setInputValue] = useState("");
 
   return (
     <section className="w-full max-w-sm my-auto space-y-2 p-2">
-      <Header />
+      <Heading />
       <InputField inputValue={inputValue} />
       <KeyPad
         inputValue={inputValue}

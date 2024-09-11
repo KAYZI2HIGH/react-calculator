@@ -2,7 +2,7 @@ import React from "react"
 import Typography from "@mui/material/Typography";
 import Switch from "@mui/material/Switch";
 
-const Header = () => {
+const Heading = () => {
   return (
     <div className="w-full flex justify-between align-middle">
       <Typography
@@ -18,4 +18,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Heading;
